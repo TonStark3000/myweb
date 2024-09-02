@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: pets-app
-        image: 13.233.112.225:8083/myweb:commit_hash
+        image: masthan14/myweb:commit_hash
         ports:
         - containerPort: 8080
       imagePullSecrets:
